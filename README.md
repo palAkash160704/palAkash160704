@@ -93,14 +93,14 @@ Engineered **Sentinel-QA**, a production-grade Agentic AI Testing Framework desi
 ## GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=palAkash160704&show_icons=true&hide_border=true&title_color=0366D6&icon_color=0366D6&bg_color=00000000&text_color=777777" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=palAkash160704&theme=dark&hide_border=true&background=00000000&ring=0366D6&fire=0366D6&currStreakLabel=0366D6" height="150" alt="GitHub Streak" />
+  <img src="./profile/stats.svg" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=palAkash160704&theme=dark&hide_border=true&background=00000000&ring=2F81F7&fire=2F81F7&currStreakLabel=2F81F7&sideLabels=C9D1D9&sideNums=C9D1D9&dates=8B949E" height="150" alt="GitHub Streak" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=palAkash160704&layout=compact&hide_border=true&title_color=0366D6&icon_color=0366D6&bg_color=00000000&text_color=777777" height="150" alt="Top Languages" />
+  <img src="./profile/top-langs.svg" height="150" alt="Top Languages" />
 </div>
 
 <br>
