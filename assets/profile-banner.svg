@@ -1,0 +1,63 @@
+<svg width="1500" height="500" viewBox="0 0 1500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code&amp;family=Inter:wght@400;700&amp;display=swap');
+      
+      /* Light Mode Base (Default) */
+      .bg { fill: #FFFFFF; }
+      .pattern-line { stroke: #D0D7DE; stroke-width: 2; fill: none; opacity: 0.5; }
+      .pattern-node { fill: #D0D7DE; }
+      .title { font-family: 'Inter', sans-serif; font-weight: 700; font-size: 72px; fill: #24292F; }
+      .subtitle1 { font-family: 'Fira Code', monospace; font-size: 32px; fill: #0969DA; }
+      .subtitle2 { font-family: 'Inter', sans-serif; font-weight: 400; font-size: 24px; fill: #57606A; }
+      
+      /* Dark Mode Override */
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #0D1117; }
+        .pattern-line { stroke: #30363D; opacity: 0.7; }
+        .pattern-node { fill: #30363D; }
+        .title { fill: #C9D1D9; }
+        .subtitle1 { fill: #2F81F7; }
+        .subtitle2 { fill: #8B949E; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="500" class="bg" />
+
+  <!-- Abstract Circuit / Neural Pattern (Left Side) -->
+  <g>
+    <path class="pattern-line" d="M -100,100 L 200,100 L 350,250 L 500,250" />
+    <path class="pattern-line" d="M 0,400 L 150,400 L 300,250" />
+    <path class="pattern-line" d="M 200,100 L 200,-50" stroke-dasharray="10,10" />
+    <path class="pattern-line" d="M 150,400 L 150,550" stroke-dasharray="10,10" />
+    <circle class="pattern-node" cx="200" cy="100" r="6" />
+    <circle class="pattern-node" cx="350" cy="250" r="6" />
+    <circle class="pattern-node" cx="150" cy="400" r="6" />
+  </g>
+
+  <!-- Abstract Circuit / Neural Pattern (Right Side) -->
+  <g>
+    <path class="pattern-line" d="M 1600,350 L 1300,350 L 1150,200 L 1000,200" />
+    <path class="pattern-line" d="M 1500,100 L 1350,100 L 1200,250" />
+    <path class="pattern-line" d="M 1300,350 L 1300,550" stroke-dasharray="10,10" />
+    <path class="pattern-line" d="M 1350,100 L 1350,-50" stroke-dasharray="10,10" />
+    <circle class="pattern-node" cx="1300" cy="350" r="6" />
+    <circle class="pattern-node" cx="1150" cy="200" r="6" />
+    <circle class="pattern-node" cx="1350" cy="100" r="6" />
+  </g>
+
+  <!-- Central Nodes Connecting the Network -->
+  <g>
+    <path class="pattern-line" d="M 500,250 L 1000,200" stroke-dasharray="5,15" opacity="0.3" />
+    <circle class="pattern-node" cx="500" cy="250" r="4" />
+    <circle class="pattern-node" cx="1000" cy="200" r="4" />
+  </g>
+
+  <!-- Main Content Layout -->
+  <text x="750" y="220" text-anchor="middle" class="title">Akash Pal</text>
+  <text x="750" y="280" text-anchor="middle" class="subtitle1">AI Engineer • Backend Developer</text>
+  <text x="750" y="330" text-anchor="middle" class="subtitle2">Building Production-Grade AI Systems</text>
+
+</svg>
